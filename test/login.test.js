@@ -16,7 +16,7 @@ describe('Login', () => {
         console.log(resposta.body)
          
          expect(resposta.status).to.equal(200);
-         expect(resposta.body.token).to.be.a('string');
+        expect(resposta.body.token).to.be.a('string');
         
      })
   })    
