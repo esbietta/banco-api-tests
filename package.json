@@ -11,10 +11,22 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^6.2.0",
+    "dotenv": "^17.3.1",
     "mocha": "^11.7.2",
     "supertest": "^7.1.4"
   },
   "dependencies": {
     "mochawesome": "^7.1.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esbietta/banco-api-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esbietta/banco-api-tests/issues"
+  },
+  "homepage": "https://github.com/esbietta/banco-api-tests#readme"
 }
