@@ -7,7 +7,7 @@ describe('transferencias', () => {
     describe('POST / Transferencias', () => {
        
         let token;
-        
+
         beforeEach ( async()=> {
         token = await obterToken('julio.lima', '123456')
         })
@@ -21,7 +21,7 @@ describe('transferencias', () => {
                  .send({
                     contaOrigem: 1,
                     contaDestino: 2,
-                    valor: 11,
+                    valor: 12,
                     token: ""
 
                  })
